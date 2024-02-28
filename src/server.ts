@@ -25,7 +25,7 @@ const app = express();
 app.use(json());
 app.use(morgan("dev"));
 
-// TODO use mongo db for session => express-sessions
+// TODO use mongo db para sesión => sesiones-expresas
 app.use(
   cookieSession({
     maxAge: 7 * 24 * 60 * 60 * 1000,
