@@ -1,6 +1,6 @@
 {
-  "name": "minecraft-afkbot",
-  "description": "sapper website for managing minecraft bots",
+  "name": "minecraft-bot",
+  "description": "",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
