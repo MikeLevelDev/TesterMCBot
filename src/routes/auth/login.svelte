@@ -10,7 +10,7 @@
 
   import md5 from "md5";
   import { redirect } from "../../helpers";
-  // import { goto } from "@sapper/app";
+  // importar { goto } de "@sapper/app";
 
   let username = "";
   let password = "";
