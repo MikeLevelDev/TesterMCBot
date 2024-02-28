@@ -9,11 +9,9 @@
 
 <div class="bg" />
 <div class="container">
-  <h1>Minecraft AFKBot</h1>
+  <h1>Minecraft Bot</h1>
   <p>
-    free bots for afk command execution or daily connection <span
-      >or for troll 😉</span
-    >
+    bots for command execution or daily connection <span>Test</span>
   </p>
   <div class="btn-container">
     <Button href="/auth/login" variant="raised"><Label>Join!</Label></Button>
