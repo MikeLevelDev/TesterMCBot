@@ -4,7 +4,7 @@
 
 <nav>
   <div class="left">
-    <a class="logo" href="/">Minecraft AFK BOT</a>
+    <a class="logo" href="/">Minecraft BOT</a>
   </div>
   <ul>
     {#if $connected}
