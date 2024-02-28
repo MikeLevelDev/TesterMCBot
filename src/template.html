@@ -11,13 +11,13 @@
     <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
+    <!-- Sapper crea una etiqueta <script> que contiene `src/client.js`
+	y cualquier otra cosa que necesite para hidratar la aplicación y
+	inicializar el enrutador -->
 
-    <!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages -->
+	<!-- Sapper genera una etiqueta <style> que contiene CSS crítico
+	para la página actual. CSS para el resto de la aplicación es
+	cargado de forma diferida cuando almacena en caché las páginas secundarias -->
     %sapper.styles%
     <link
       rel="stylesheet"
@@ -28,7 +28,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto+Mono"
     />
 
-    <!-- fonts -->
+    <!-- Fuentes -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
@@ -37,13 +37,13 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
+	<!-- Contiene el contenido del componente <svelte:head>, si
+	la página actual tiene uno -->
     %sapper.head%
   </head>
   <body>
-    <!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
+	<!-- La aplicación se representará dentro de este elemento,
+	porque `src/client.js` hace referencia a él -->
     <div id="sapper">%sapper.html%</div>
     <script src="/vendor/iconify.min.js"></script>
     %sapper.scripts%
