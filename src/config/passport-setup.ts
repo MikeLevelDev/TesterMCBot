@@ -89,19 +89,19 @@ passport.use(
         if (req.url.match("login")) {
           // user wants to login
           if (currentUser && password == currentUser.password) {
-            return done(null, currentUser); // existing user and passwords match
+            return done(null, currentUser); // El usuario y las contraseñas existentes coinciden.
           } else {
             console.log("bad pass");
 
-            return done(null, false); // passwords do not match or no user
+            return done(null, false); // Las contraseñas no coinciden o ningún usuario
           }
         } else {
-          // user wants to register
+          // El usuario quiere registrarse
           if (currentUser) {
-            return done(null, false); // user already exists
+            return done(null, false); // El usuario ya existe
           } else {
             new User({
-              // create new user
+              // crear nuevo usuario
               username,
               password,
               auth_type: "local",
