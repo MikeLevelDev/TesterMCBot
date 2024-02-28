@@ -121,7 +121,7 @@ export default {
       url({
         sourceDir: path.resolve(__dirname, "src/node_modules/images"),
         publicPath: "/client/",
-        emitFiles: false, // already emitted by client build
+        emitFiles: false, // ardy emitted con el client build
       }),
       resolve({
         dedupe: ["svelte"],
